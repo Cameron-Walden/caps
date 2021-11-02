@@ -15,3 +15,8 @@ Begin the build of an application for a company called CAPS - The Code Academy P
 Tactically, this will be an event driven application that “distributes” the responsibility for logging to separate modules, using only events to trigger logging based on activity.
 
 ***
+
+## UML 
+
+<img src = "img/capsP1.jpg">
+
