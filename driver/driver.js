@@ -8,7 +8,7 @@ const faker = require('faker');
 
     vendorPackage.on('pickup', (payload) => {
     
-      console.log(`Your package has been has been picked up and is now out for delivery.`, payload)
+      console.log(`Your package has been picked up and is now out for delivery.`, payload)
     
       vendorPackage.emit('in-transit', {
         event: 'in-transit',
