@@ -4,8 +4,7 @@ const socketio = require('socket.io');
 const client = require('socket.io-client');
 const PORT = process.env.PORT || 3030;
 const server = socketio(PORT);
-const socket = client('http://localhost:3030');
-
+const faker = require('faker');
 
 server.on('connection', (socket) => {
   console.log('Socket is connected at id: ', socket.id);
